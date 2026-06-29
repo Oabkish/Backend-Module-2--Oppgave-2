@@ -3,14 +3,7 @@ namespace Tests;
 public class ContainerTests
 {
   [Fact]
-  public void TestName()
-  {
-    // Given
-  
-    // When
-  
-    // Then
-  }
+    
     public void Store_AddsItem_GetItem_ReturnsLastItem()
     {
     var box = new Core.Container<string>();
